@@ -1,0 +1,5 @@
+Comment,Designator,Footprint,LCSC,Quantity
+LT1962-3.3,U3,MSOP-8_3x3mm_P0.65mm,,1
+W25Q128JVP,U2,WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm,,1
+RP2040,U1,QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm,,1
+USB3_A,J1,USB3_A_Plug_Wuerth_692112030100_Horizontal,,1

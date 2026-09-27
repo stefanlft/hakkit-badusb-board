@@ -1,0 +1,5 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J1,USB3_A,USB3_A_Plug_Wuerth_692112030100_Horizontal,84.51,-77.015,0.0,top
+U1,RP2040,QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm,85.84,-89.345,0.0,top
+U2,W25Q128JVP,WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm,94.72,-87.965,270.0,top
+U3,LT1962-3.3,MSOP-8_3x3mm_P0.65mm,102.275,-87.02,0.0,top

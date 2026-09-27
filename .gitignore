@@ -1,0 +1,15 @@
+# KiCad specific files
+*.kicad_sch~
+*.kicad_pcb~
+*-bak
+*.pro~
+*_cache.lib
+*-_cache.dcm
+fp-lib-table.bak
+sym-lib-table.bak
+
+# OS and backup files
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
