@@ -8033,7 +8033,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Card:microSD_HC_Molex_47219-2001"
 			(at 289.56 107.95 0)
 			(hide yes)
 			(show_name no)
