@@ -4449,10 +4449,16 @@
 		(uuid "20a7ff25-240e-4330-b450-ac663abdc512")
 	)
 	(junction
-		(at 116.84 58.42)
+		(at 125.73 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "38e443a4-ac98-4f5f-a310-9aa7f6f2d3d6")
+		(uuid "2401c18d-8123-4f2a-b13f-b0ee709ff810")
+	)
+	(junction
+		(at 130.81 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ea3532d-c42f-44ba-a6a1-a00c80070148")
 	)
 	(junction
 		(at 327.66 33.02)
@@ -4497,6 +4503,12 @@
 		(uuid "7a5566d6-279a-40bd-b10b-0162c6eb1b6d")
 	)
 	(junction
+		(at 116.84 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "873e4d68-d388-4570-afb1-99fffce57c51")
+	)
+	(junction
 		(at 90.17 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4515,6 +4527,12 @@
 		(uuid "b50fa7b8-97cf-439d-a20f-7f0b2b75a90b")
 	)
 	(junction
+		(at 116.84 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb2f23da-bf38-4641-93ca-ce98536970f3")
+	)
+	(junction
 		(at 90.17 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4525,12 +4543,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e160020e-a748-405e-8aab-2607c814b2d5")
-	)
-	(junction
-		(at 125.73 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e848d7f0-e693-4a26-a55e-272415c63849")
 	)
 	(junction
 		(at 220.98 64.77)
@@ -4814,6 +4826,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 54.61) (xy 116.84 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27114a37-3f28-4e93-b962-0f25864e3949")
+	)
+	(wire
+		(pts
 			(xy 55.88 93.98) (xy 55.88 96.52)
 		)
 		(stroke
@@ -4834,13 +4856,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 58.42) (xy 115.57 58.42)
+			(xy 125.73 54.61) (xy 130.81 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2e7ddb4e-6eff-454a-b795-c0a302f2162d")
+		(uuid "2d4da44b-b85d-48cd-a113-6cc7915a7195")
 	)
 	(wire
 		(pts
@@ -4964,7 +4986,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 58.42) (xy 118.11 58.42)
+			(xy 115.57 58.42) (xy 116.84 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5094,6 +5116,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 54.61) (xy 90.17 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c8032d0-05d6-4350-bffa-73ba0b8198bc")
+	)
+	(wire
+		(pts
 			(xy 77.47 127) (xy 77.47 121.92)
 		)
 		(stroke
@@ -5161,6 +5193,16 @@
 			(type default)
 		)
 		(uuid "8910d05f-f81e-48ac-8663-c9e5ac95670a")
+	)
+	(wire
+		(pts
+			(xy 116.84 58.42) (xy 118.11 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c44e91d-9ea3-4f5b-8708-c3a69dbdab4c")
 	)
 	(wire
 		(pts
@@ -5504,7 +5546,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 54.61) (xy 90.17 54.61)
+			(xy 125.73 54.61) (xy 116.84 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5594,7 +5636,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 57.15) (xy 130.81 60.96)
+			(xy 130.81 54.61) (xy 130.81 60.96)
 		)
 		(stroke
 			(width 0)
@@ -6011,7 +6053,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 78.74 122.8852 0)
 			(hide yes)
 			(show_name no)
@@ -6035,6 +6077,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 82.55 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 82.55 121.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6204,6 +6257,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 175.26 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "f05fbce6-417f-40e7-bd4f-24057e9ed0b1")
 		)
@@ -6337,7 +6401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 328.6252 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6360,6 +6424,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 327.66 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 327.66 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -6496,7 +6571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2"
 			(at 85.09 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -6520,6 +6595,17 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 80.01 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 80.01 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6784,6 +6870,17 @@
 			(at 128.27 109.22 0)
 			(hide yes)
 			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 128.27 106.68 0)
+			(hide yes)
+			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -7114,6 +7211,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 166.37 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9ca1a6fe-71ae-4549-befc-edfcd6492143")
 		)
@@ -7184,6 +7292,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 97.79 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 97.79 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7350,6 +7469,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 158.75 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "34fa95cb-8d1a-4704-a70d-d97489676a26")
 		)
@@ -7422,6 +7552,17 @@
 		)
 		(property "Description" "Two pin crystal"
 			(at 90.17 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 90.17 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7592,6 +7733,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 339.09 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f0ff137e-7596-4f09-8aac-8bf31617fcfb")
 		)
@@ -7751,6 +7903,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 224.79 64.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "212e7ac3-8605-4e70-88af-fcf4bf896478")
 		)
@@ -7821,6 +7984,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 97.79 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 97.79 91.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8066,6 +8240,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 260.35 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fc1ec411-4daa-415c-9d6e-047f68787aa0")
 		)
@@ -8161,6 +8346,17 @@
 		)
 		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8"
 			(at 55.88 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 55.88 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8394,7 +8590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 78.74 133.0452 0)
 			(hide yes)
 			(show_name no)
@@ -8418,6 +8614,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 82.55 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 82.55 132.08 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8497,6 +8704,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 158.75 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 158.75 86.36 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8665,6 +8883,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 312.42 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "48546ca7-d173-4625-ae2b-ca53b0f1af47")
 		)
@@ -8731,7 +8960,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 228.6 71.4248 0)
 			(hide yes)
 			(show_name no)
@@ -8755,6 +8984,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 224.79 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 224.79 72.39 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8836,6 +9076,17 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 69.85 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 69.85 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -9005,6 +9256,17 @@
 				)
 			)
 		)
+		(property "LCSC Part #" ""
+			(at 229.87 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "510f3a73-24d3-401c-894a-ffd706320d1d")
 		)
@@ -9022,7 +9284,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 130.81 57.15 0)
+		(at 130.81 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9033,7 +9295,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba825602-b988-455f-b9dd-49919f2f7c3a")
 		(property "Reference" "#PWR018"
-			(at 130.81 60.96 0)
+			(at 130.81 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9044,7 +9306,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 130.81 52.07 0)
+			(at 130.81 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9054,7 +9316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 57.15 0)
+			(at 130.81 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9065,7 +9327,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 57.15 0)
+			(at 130.81 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9076,7 +9338,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 130.81 57.15 0)
+			(at 130.81 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9129,7 +9391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 293.37 36.5252 0)
 			(hide yes)
 			(show_name no)
@@ -9153,6 +9415,17 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 297.18 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
+			(at 297.18 35.56 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9414,161 +9687,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 116.84 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e5e020b3-ff85-4fc1-825a-aa6b06a47bc2")
-		(property "Reference" "#PWR019"
-			(at 116.84 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 112.776 56.896 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 116.84 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0fa6b95f-3fb2-4dbc-b0be-160e280ba27f")
-		)
-		(instances
-			(project "hakkit_badusb"
-				(path "/746e4032-fbbd-4d16-9b9c-3b9fa1213050"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 125.73 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e874b616-ffa2-4c18-b67d-f54d1abdca40")
-		(property "Reference" "#FLG03"
-			(at 125.73 52.705 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 125.73 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 125.73 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e3fa26ca-0292-47a4-a414-96c28f8589d2")
-		)
-		(instances
-			(project "hakkit_badusb"
-				(path "/746e4032-fbbd-4d16-9b9c-3b9fa1213050"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 80.01 87.63 180)
 		(unit 1)
@@ -9701,6 +9819,17 @@
 			)
 		)
 		(property "Description" "USB 3.0 A connector"
+			(at 224.79 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" ""
 			(at 224.79 40.64 0)
 			(hide yes)
 			(show_name no)

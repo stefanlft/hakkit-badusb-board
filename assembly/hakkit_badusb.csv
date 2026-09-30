@@ -1,0 +1,17 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"C1, C2";"C_0603_1608Metric";2;"C10nF";;;
+2;"C3";"CP_Elec_5x3";1;"C10uF";;;
+3;"C4";"C_0603_1608Metric";1;"C1uF";;;
+4;"C5, C6";"C_0603_1608Metric";2;"C15pF";;;
+5;"D1";"LED_RGB_Lumex_SML-LXT0805SIUGUBW";1;"LED_KRGB";;;
+6;"J1";"USB3_A_Plug_Wuerth_692112030100_Horizontal";1;"USB3_A";;;
+7;"J2";"microSD_HC_Molex_47219-2001";1;"Micro_SD_Card";;;
+8;"R1, R5";"R_0603_1608Metric";2;"27R";;;
+9;"R2, R4";"R_0603_1608Metric";2;"10kR";;;
+10;"R3";"R_0603_1608Metric";1;"1MR";;;
+11;"R6, R7, R8";"R_0603_1608Metric";3;"220R";;;
+12;"SW1";"SW_Push_1P1T_NO_CK_KMR2";1;"SW_Push";;;
+13;"U1";"QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm";1;"RP2040";;;
+14;"U2";"WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm";1;"W25Q128JVP";;;
+15;"U3";"MSOP-8_3x3mm_P0.65mm";1;"LT1962-3.3";;;
+16;"Y1";"Crystal_SMD_5032-2Pin_5.0x3.2mm";1;"12MHz Cryst";;;
