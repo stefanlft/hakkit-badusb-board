@@ -1,17 +1,16 @@
-Comment,Designator,Footprint,LCSC,Quantity
-C10nF,"C1,C2",Capacitor_SMD:C_0603_1608Metric,,2
-C10uF,C3,Capacitor_SMD:CP_Elec_5x3,,1
-C1uF,C4,Capacitor_SMD:C_0603_1608Metric,,1
-C15pF,"C5,C6",Capacitor_SMD:C_0603_1608Metric,,2
-LED_KRGB,D1,LED_SMD:LED_RGB_Lumex_SML-LXT0805SIUGUBW,,1
-USB3_A,J1,Connector_USB:USB3_A_Plug_Wuerth_692112030100_Horizontal,,1
-Micro_SD_Card,J2,Connector_Card:microSD_HC_Molex_47219-2001,,1
-27R,"R1,R5",Resistor_SMD:R_0603_1608Metric,,2
-10kR,"R2,R4",Resistor_SMD:R_0603_1608Metric,,2
-1MR,R3,Resistor_SMD:R_0603_1608Metric,,1
-220R,"R6,R7,R8",Resistor_SMD:R_0603_1608Metric,,3
-SW_Push,SW1,,,1
-RP2040,U1,Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm,,1
-W25Q128JVP,U2,Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm,,1
-LT1962-3.3,U3,Package_SO:MSOP-8_3x3mm_P0.65mm,,1
-12MHz Cryst,Y1,Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm,,1
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"C1, C2";"C_0603_1608Metric";2;"C10nF";;;
+2;"C3";"CP_Elec_5x3";1;"C10uF";;;
+3;"C4";"C_0603_1608Metric";1;"C1uF";;;
+4;"C5, C6";"C_0603_1608Metric";2;"C15pF";;;
+5;"D2";"LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm";1;"WS2812B";;;
+6;"J2";"microSD_HC_Molex_47219-2001";1;"Micro_SD_Card";;;
+7;"J3";"USB_A_Connfly_DS1098_Horizontal";1;"USB_A";;;
+8;"R1, R5";"R_0603_1608Metric";2;"27R";;;
+9;"R2, R4";"R_0603_1608Metric";2;"10kR";;;
+10;"R3";"R_0603_1608Metric";1;"1MR";;;
+11;"SW1";"SW_Push_1P1T_NO_CK_KMR2";1;"SW_Push";;;
+12;"U1";"QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm";1;"RP2040";;;
+13;"U3";"MSOP-8_3x3mm_P0.65mm";1;"LT1962-3.3";;;
+14;"U4";"SOIC-8_5.3x5.3mm_P1.27mm";1;"W25Q16JVSS";;;
+15;"Y2";"Crystal_SMD_3225-4Pin_3.2x2.5mm";1;"Crystal 12MHz";;;
